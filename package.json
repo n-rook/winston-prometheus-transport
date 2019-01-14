@@ -1,0 +1,35 @@
+{
+  "name": "winston-prometheus-transport",
+  "version": "0.0.1",
+  "description": "Winston transport that records statistics to Prometheus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prettify": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-rook/winston-prometheus-transport.git"
+  },
+  "author": "Nate Rook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n-rook/winston-prometheus-transport/issues"
+  },
+  "homepage": "https://github.com/n-rook/winston-prometheus-transport#readme",
+  "dependencies": {
+    "prom-client": "^11.2.1",
+    "winston": "^3.1.0",
+    "winston-transport": "^4.3.0"
+  },
+  "peerDependencies": {
+    "prom-client": "^11.x"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">= 8.9.1"
+  }
+}
